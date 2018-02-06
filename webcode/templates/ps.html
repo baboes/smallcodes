@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div>
+    <p>problem definition</p>
+    {{ problem_definition }}
+</div>
+
+<br>
+
+<div>
+    <p>code</p>
+    <pre>{{ code }}</pre>
+</div>
+
+<br>
+
+<div>
+    <p>input</p>
+    <pre>{{ input }}</pre>
+</div>
+
+<br>
+
+<div>
+    <p>output</p>
+    <pre>{{ output }}</pre>
+</div>
+
+{% endblock %}

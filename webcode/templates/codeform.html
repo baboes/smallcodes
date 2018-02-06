@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post" enctype="multipart/form-data">
+    <div><p>code</p></div>
+    <div><textarea name="code"></textarea></div>
+    <div><p>input</p><input type="text" name="input" /></div>
+    <div/>
+    <div><input type="submit" name="submit" /></div>
+<!--
+  <div style="float:left;clear:left;margin-right:10px;">file: </div>
+  <div style="float:left;"><input type="file" name="uploaded" /></div>
+  <div style="float:left;margin-right:10px;">category: </div>
+  <div style="float:left;margin-right:20px;"><input type="text" name="category" /></div>
+  <div><input type="submit" name="submit" /></div>
+-->
+</form>
+
+
+{% endblock %}
